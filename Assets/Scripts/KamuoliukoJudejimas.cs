@@ -50,18 +50,19 @@ public class KamuoliukoJudejimas : MonoBehaviour
         {
             //transform.position = respawnPoint;
             SceneManager.LoadScene(CurrentScene.name);
+
         }
-        else if(other.tag == "Finish")
+        else if (other.tag == "Finish")
         {
-           if(CurrentScene.name == "1lygis")
+            if (CurrentScene.name == "1lygis")
             {
                 SceneManager.LoadScene("2lygis");
             }
-           else if(CurrentScene.name == "2lygis")
+            else if (CurrentScene.name == "2lygis")
             {
                 SceneManager.LoadScene("3lygis");
             }
-           else if(CurrentScene.name == "3lygis")
+            else if (CurrentScene.name == "3lygis")
             {
                 SceneManager.LoadScene("Menu");
             }
