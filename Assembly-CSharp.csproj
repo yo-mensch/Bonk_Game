@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\CoinDetection.cs" />
      <Compile Include="Assets\Scripts\KamuoliukoJudejimas.cs" />
      <Compile Include="Assets\Scripts\MenuControl.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scripts\Pause.cs" />
      <Compile Include="Assets\Scripts\QuitGame.cs" />
      <Compile Include="Assets\Scripts\ScoreScript.cs" />
