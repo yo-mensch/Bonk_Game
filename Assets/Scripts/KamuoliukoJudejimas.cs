@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class KamuoliukoJudejimas : MonoBehaviour
 {
@@ -15,7 +16,6 @@ public class KamuoliukoJudejimas : MonoBehaviour
     private bool lieciaGrindis;
     public Vector3 respawnPoint;
     private Scene CurrentScene;
-    private CoinDetection aku;
     // Start is called before the first frame update
     void Start()
     {
@@ -48,19 +48,21 @@ public class KamuoliukoJudejimas : MonoBehaviour
     {
         if (other.tag == "FallDetector" || other.tag == "spike")
         {
-            //transform.position = respawnPoint;
             SceneManager.LoadScene(CurrentScene.name);
-
+            CurrentScene.GetRootGameObjects();
+            ScoreScript.ScoreValue = 0;
         }
         else if (other.tag == "Finish")
         {
             if (CurrentScene.name == "1lygis")
             {
                 SceneManager.LoadScene("2lygis");
+                ScoreScript.ScoreValue = 0;
             }
             else if (CurrentScene.name == "2lygis")
             {
                 SceneManager.LoadScene("3lygis");
+                ScoreScript.ScoreValue = 0;
             }
             else if (CurrentScene.name == "3lygis")
             {
