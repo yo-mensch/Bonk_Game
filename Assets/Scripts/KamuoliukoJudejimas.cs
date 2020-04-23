@@ -67,6 +67,7 @@ public class KamuoliukoJudejimas : MonoBehaviour
             else if (CurrentScene.name == "3lygis")
             {
                 SceneManager.LoadScene("Menu");
+                ScoreScript.ScoreValue = 0;
             }
         }
     }
