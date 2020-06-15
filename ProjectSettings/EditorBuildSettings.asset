@@ -9,10 +9,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 6cd06067acf1b7249a0b90b452afb0a9
   - enabled: 1
-    path: Assets/Scenes/1lygis.unity
+    path: Assets/Scenes/2lygis.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/2lygis.unity
+    path: Assets/Scenes/1lygis.unity
     guid: 22ac6b8ab2930624b8be2d4337d6501c
   - enabled: 1
     path: Assets/Scenes/3lygis.unity

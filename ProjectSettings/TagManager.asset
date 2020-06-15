@@ -7,6 +7,7 @@ TagManager:
   - spike
   - FallDetector
   - Checkpoint
+  - moneta
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - 
   - background
-  - 
+  - another UI
   - 
   - 
   - 
@@ -41,6 +42,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: camera
+    uniqueID: 1161535507
+    locked: 0
   - name: background
     uniqueID: 2062402815
     locked: 0

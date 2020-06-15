@@ -62,8 +62,10 @@
     <Compile Include="Assets\Scripts\CoinDetection.cs" />
     <Compile Include="Assets\Scripts\KamuoliukoJudejimas.cs" />
     <Compile Include="Assets\Scripts\MenuControl.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Pause.cs" />
     <Compile Include="Assets\Scripts\QuitGame.cs" />
+    <Compile Include="Assets\Scripts\ScoreScript.cs" />
     <None Include="Assets\Fonts\Documentation\JazzCreateAltKeys_BubbleFont.txt" />
     <None Include="Assets\Fonts\Documentation\JazzCreateBubble_VersionHistory_1.1.txt" />
     <Reference Include="Unity.Timeline.Editor">
